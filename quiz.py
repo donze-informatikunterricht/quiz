@@ -100,7 +100,7 @@ Q5_arrays = create_multipleChoice_widget('Wie geben Sie eine Liste liste unter d
                                           'print(liste)'],
                                          'print(liste)')
 
-Q6_arrays = create_multipleChoice_widget('Was ist das Ergebnis folgender Rechnung: a+c[len(c)-3]*len(b)?',
+Q6_arrays = create_multipleChoice_widget('Was ist das Ergebnis der folgenden Rechnung: a+c[len(c)-3]*len(b)?',
                                          ['Keines, es gibt eine Fehlermeldung',
                                           '0',
                                           '5',
