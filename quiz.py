@@ -113,12 +113,12 @@ Q6_arrays = create_multipleChoice_widget('Was ist das Ergebnis folgender Rechnun
 
 ### Algorithmen
 
-Q1_algorithmen = create_multipleChoice_widget('Welche Alltagsaktivität',
+Q1_algorithmen = create_multipleChoice_widget('Welche dieser Aktivitäten ist eher kein Algorithmus?',
                                               ['Zähneputzen.',
                                                'Schuhe binden.',
                                                'Im Fussballspiel ein Goal schiessen.', 
-                                               '.'],
-                                              'Weil jederzeit klar sein muss, was zu tun ist.')
+                                               'Schwimmen.'],
+                                              'Im Fussballspiel ein Goal schiessen.')
 
 Q2_algorithmen = create_multipleChoice_widget('Warum ist es wichtig, einen Algorithmus genau zu beschreiben?',
                                               ['Weil er sonst macht, was er will.',
