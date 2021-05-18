@@ -63,7 +63,7 @@ def create_multipleChoice_widget(description, options, correct_answer):
 ## Listen
 
 #for i in range(10)
-Q1_arrays = create_multipleChoice_widget('Welche Werte nimmt die Laufvariable i im folgenden Loop an? for i in range(10):',
+export Q1_arrays = create_multipleChoice_widget('Welche Werte nimmt die Laufvariable i im folgenden Loop an? for i in range(10):',
                                          ['von 0 bis und mit 10',
                                           'von 1 bis und mit 10',
                                           'von 0 bis und ohne 10',
