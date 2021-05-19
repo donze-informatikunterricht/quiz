@@ -126,8 +126,10 @@ Q2_algorithmen = create_multipleChoice_widget('Warum ist es wichtig, einen Algor
                                                'Weil die Ausführung sonst zu lange dauert.', 
                                                'Weil sonst falsche Ausgaben entstehen können.'],
                                               'Weil jederzeit klar sein muss, was zu tun ist.')
-
-#Q1 = create_multipleChoice_widget('blablabla',['apple','banana','pear'],'Weil die Maschine jederzeit genau wissen muss, was zu tun ist.')
-#Q2 = create_multipleChoice_widget('lalalalal',['cat','dog','mouse'],'dog')
-#
-#Q3 = create_multipleChoice_widget('jajajajaj',['blue','white','red'],'white')
+Q3_algorithmen = create_multipleChoice_widget('Wie nennt man die Eigenschaft aus der vorigen Frage?',
+                                              ['Allgemeinheit',
+                                               'Ausführbarkeit',
+                                               'Eindeutigkeit',
+                                               'Endlichkeit',
+                                               'Korrektheit'],
+                                              'Eindeutigkeit')
