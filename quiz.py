@@ -1,5 +1,4 @@
 import ipywidgets as widgets
-# import sys
 from IPython.display import clear_output
 
 def create_multipleChoice_widget(description, options, correct_answer):
@@ -42,27 +41,40 @@ def create_multipleChoice_widget(description, options, correct_answer):
     
     return widgets.VBox([description_out, alternativ, check, feedback_out])
 
-## Suchen
-### Insertionsort
+################################################################################
 
-### Selectionsort
+# Erste Schritte
 
-### Bubblesort
+Q1_erste_schritte = create_multipleChoice_widget('Welchen Datentyp haben die Variablen a und b?',
+                                         ['Boolean',
+                                          'String',
+                                          'Integer',
+                                          'Float'],
+                                         'Integer')
 
-### Mergesort
+Q2_erste_schritte = create_multipleChoice_widget('Was gibt das Programm zurück?',
+                                         ['27',
+                                          '28',
+                                          '29',
+                                          '30'],
+                                         '28')
 
-### Quicksort
+Q3_erste_schritte = create_multipleChoice_widget('Wie oft wird die Schleife ausgeführt?',
+                                         ['gar nie',
+                                          'fünfmal',
+                                          'zehnmal',
+                                          'vierundzwanzigmal'],
+                                         'fünfmal')
 
+Q4_erste_schritte = create_multipleChoice_widget('Was würde das Programm ausgeben, wenn in Zeile 5 ein > wäre anstelle des <= ?',
+                                         ['0',
+                                          '10',
+                                          '28',
+                                          '24'],
+                                         '0')
 
-## Sortieren
+# Arrays
 
-## Vorwissen
-
-## Programmieren allgemein
-
-## Listen
-
-#for i in range(10)
 Q1_arrays = create_multipleChoice_widget('Welche Werte nimmt die Laufvariable i im folgenden Loop an? for i in range(10):',
                                          ['von 0 bis und mit 10',
                                           'von 1 bis und mit 10',
@@ -107,10 +119,6 @@ Q6_arrays = create_multipleChoice_widget('Was ist das Ergebnis der folgenden Rec
                                           '6'],
                                          '5')
 
-
-
-
-
 ### Algorithmen
 
 Q1_algorithmen = create_multipleChoice_widget('Welche dieser Aktivitäten ist eher kein Algorithmus?',
@@ -133,3 +141,40 @@ Q3_algorithmen = create_multipleChoice_widget('Wie nennt man die Eigenschaft aus
                                                'Endlichkeit',
                                                'Korrektheit'],
                                               'Eindeutigkeit')
+
+# Suchen
+
+Q1_suchen = create_multipleChoice_widget('Schauen Sie sich die Liste a an. Welchen Suchalgorithmus würden Sie bevorzugen, um den Wert 24 zu suchen?',
+                                         ['Lineare Suche',
+                                          'Binäre Suche',
+                                          'Beide Suchalgorithmen sind gleichermassen geeignet.',
+                                          'Keiner der beiden Suchalgorithmen ist geeignet.'],
+                                         'Keiner der beiden Suchalgorithmen ist geeignet.')
+
+Q2_suchen = create_multipleChoice_widget('Schauen Sie sich die Liste b an. Welchen Suchalgorithmus würden Sie bevorzugen, um den Wert 24 zu suchen?',
+                                         ['Lineare Suche',
+                                          'Binäre Suche',
+                                          'Beide Suchalgorithmen sind gleichermassen geeignet.',
+                                          'Keiner der beiden Suchalgorithmen ist geeignet.'],
+                                         'Binäre Suche')
+
+Q3_suchen = create_multipleChoice_widget('Schauen Sie sich die Liste c an. Welchen Suchalgorithmus würden Sie bevorzugen, um den Wert 24 zu suchen?',
+                                         ['Lineare Suche',
+                                          'Binäre Suche',
+                                          'Beide Suchalgorithmen sind gleichermassen geeignet.',
+                                          'Keiner der beiden Suchalgorithmen ist geeignet.'],
+                                         'Lineare Suche')
+
+Q4_suchen = create_multipleChoice_widget('Wenn Sie den Wert 24 in der Liste b mit Hilfe der binären Suche  suchen, wieviele Schritte benötigen Sie?',
+                                         ['1',
+                                          '4',
+                                          '5',
+                                          '10'],
+                                         '4')
+
+Q5_suchen = create_multipleChoice_widget('Wenn Sie den Wert 24 in der Liste c mit Hilfe der linearen Suche suchen, wieviele Schritte benötigen Sie?',
+                                         ['10',
+                                          '5',
+                                          '1',
+                                          '0'],
+                                         '1')
