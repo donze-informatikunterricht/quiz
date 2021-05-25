@@ -113,10 +113,10 @@ Q5_arrays = create_multipleChoice_widget('Wie geben Sie eine Liste liste unter d
 
 Q6_arrays = create_multipleChoice_widget('Was ist das Ergebnis der folgenden Rechnung: a+c[len(c)-3]*len(b)?',
                                          ['Keines, es gibt eine Fehlermeldung',
-                                          '0',
+                                          '55',
                                           '5',
-                                          '6'],
-                                         '5')
+                                          '-5'],
+                                         '55')
 
 ### Algorithmen
 
