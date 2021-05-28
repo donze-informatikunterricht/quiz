@@ -1,4 +1,4 @@
-import ipywidgets as widgets
+ import ipywidgets as widgets
 from IPython.display import clear_output
 
 def create_multipleChoice_widget(description, options, correct_answer):
@@ -90,6 +90,8 @@ Q2_arrays = create_multipleChoice_widget('Welchen Wert nimmt el im folgenden Loo
                                           '4'],
                                          '0')
 
+
+
 Q3_arrays = create_multipleChoice_widget('liste=[0 for x in range(5)] Was ist der Rückgabewert von len(liste)?',
                                          ['0',
                                           '4',
@@ -177,3 +179,39 @@ Q5_suchen = create_multipleChoice_widget('Wenn Sie den Wert 24 in der Liste c mi
                                           '1',
                                           '0'],
                                          '1')
+
+# Insertion Sort
+Q1_insertion = create_multipleChoice_widget('Sie Sortieren eine Liste mit 20 Elementen mit dem Insertion-Sort-Algorithmus. Sie beobachten 190 Versuche. Was muss die Ausgangslage sein?',
+                                         ['sortiert',
+                                          'umgekehrt sortiert',
+                                          'zufällig',
+                                          'keine von allen'],
+                                         'umgekehrt sortiert')
+
+Q2_insertion = create_multipleChoice_widget('Sie Sortieren eine Liste mit 20 Elementen mit dem Insertion-Sort-Algorithmus. Sie beobachten 10 Versuche. Was muss die Ausgangslage sein?',
+                                         ['sortiert',
+                                          'umgekehrt sortiert',
+                                          'zufällig',
+                                          'keine von allen'],
+                                         'umgekehrt sortiert')
+
+Q3_insertion = create_multipleChoice_widget('Sie sortieren die gegebene Liste a mit dem Insertion-Sort-Algorithmus. Wie sieht die Liste nach dem 2. Durchgang aus?',
+                                         ['[1, 2, 3, 6, 7, 8, 4, 0, 5, 9]',
+                                          '[1, 2, 3, 7, 6, 8, 4, 0, 5, 9]',
+                                          '[3, 4, 1, 6, 5, 9, 7, 0, 2, 8]',
+                                          '[2, 3, 7, 1, 6, 8, 4, 0, 5, 9]'],
+                                         '[1, 2, 3, 6, 7, 8, 4, 0, 5, 9]')
+
+Q4_insertion = create_multipleChoice_widget('Sie sortieren die gegebene Liste a mit dem Insertion-Sort-Algorithmus. Wie viele Schritte erwarten Sie?',
+                                         ['9',
+                                          '45',
+                                          '90',
+                                          'Das kann ich nicht sagen.'],
+                                         'Das kann ich nicht sagen.')
+
+Q5_insertion = create_multipleChoice_widget('Sie sortieren eine Liste mit 20 Elementen mit dem Insertion-Sort-Algorithmus. Sie beobachten 19 Versuche. Was muss die Ausgangslage sein?',
+                                         ['sortiert',
+                                          'umgekehrt sortiert',
+                                          'zufällig',
+                                          'alle dieselbe Zahl'],
+                                         'sortiert')
