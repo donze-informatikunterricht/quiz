@@ -73,16 +73,16 @@ Q4_erste_schritte = create_multipleChoice_widget('Was würde das Programm ausgeb
                                           '24'],
                                          '0')
 
-# Arrays
+# Listen
 
-Q1_arrays = create_multipleChoice_widget('Welche Werte nimmt die Laufvariable i im folgenden Loop an? for i in range(10):',
+Q1_listen = create_multipleChoice_widget('Welche Werte nimmt die Laufvariable i im folgenden Loop an? for i in range(10):',
                                          ['von 0 bis und mit 10',
                                           'von 1 bis und mit 10',
                                           'von 0 bis und ohne 10',
                                           'von 1 bis und ohne 10'],
                                          'von 0 bis und ohne 10')
 
-Q2_arrays = create_multipleChoice_widget('Welchen Wert nimmt el im folgenden Loop  NICHT  an? for el in c:',
+Q2_listen = create_multipleChoice_widget('Welchen Wert nimmt el im folgenden Loop  NICHT  an? for el in c:',
                                          ['0',
                                           '1',
                                           '2',
@@ -92,28 +92,28 @@ Q2_arrays = create_multipleChoice_widget('Welchen Wert nimmt el im folgenden Loo
 
 
 
-Q3_arrays = create_multipleChoice_widget('liste=[0 for x in range(5)] Was ist der Rückgabewert von len(liste)?',
+Q3_listen = create_multipleChoice_widget('liste=[0 for x in range(5)] Was ist der Rückgabewert von len(liste)?',
                                          ['0',
                                           '4',
                                           '5',
                                           '6'],
                                          '5')
 
-Q4_arrays = create_multipleChoice_widget('Wie greifen Sie auf das erste Element einer Liste liste zu?',
+Q4_listen = create_multipleChoice_widget('Wie greifen Sie auf das erste Element einer Liste liste zu?',
                                          ['liste[0]',
                                           'liste[1]',
                                           'liste(0)',
                                           'liste(1)'],
                                          'liste[0]')
 
-Q5_arrays = create_multipleChoice_widget('Wie geben Sie eine Liste liste unter der Codezelle (oder in der Konsole) aus?',
+Q5_listen = create_multipleChoice_widget('Wie geben Sie eine Liste liste unter der Codezelle (oder in der Konsole) aus?',
                                          ['return liste',
                                           'output liste',
                                           'output(liste)',
                                           'print(liste)'],
                                          'print(liste)')
 
-Q6_arrays = create_multipleChoice_widget('Was ist das Ergebnis der folgenden Rechnung: a+c[len(c)-3]*len(b)?',
+Q6_listen = create_multipleChoice_widget('Was ist das Ergebnis der folgenden Rechnung: a+c[len(c)-3]*len(b)?',
                                          ['Keines, es gibt eine Fehlermeldung',
                                           '55',
                                           '5',
