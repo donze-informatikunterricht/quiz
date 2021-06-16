@@ -252,74 +252,74 @@ Q5_selection = create_multipleChoice_widget('Sie sortieren die gegebene Liste a 
                                           '90'],
                                          '45')
 
-# Bubblesort
-Q1_bubble = create_multipleChoice_widget('Sie sortieren eine Liste mit 20 Elementen mit dem maximal optimierten Bubblesort-Algorithmus. Sie beobachten 19 Vergleiche. Was können Sie über die sortierte Liste aussagen?',
+# Bubble Sort
+Q1_bubble = create_multipleChoice_widget('Sie sortieren eine Liste mit 20 Elementen mit dem maximal optimierten Bubble-Sort-Algorithmus. Sie beobachten 19 Vergleiche. Was können Sie über die sortierte Liste aussagen?',
                                          ['Sie war sortiert.',
                                           'Sie war umgekehrt sortiert.',
                                           'Sie war zufällig sortiert',
                                           'Das ist gar nicht möglich.'],
                                          'Sie war sortiert.')
 
-Q2_bubble = create_multipleChoice_widget('Sie sortieren eine Liste mit 20 Elementen mit dem Bubblesort-Algorithmus. Sie beobachten 19 Vergleiche. Was können Sie über die Optimierung aussagen?',
+Q2_bubble = create_multipleChoice_widget('Sie sortieren eine Liste mit 20 Elementen mit dem Bubble-Sort-Algorithmus. Sie beobachten 19 Vergleiche. Was können Sie über die Optimierung aussagen?',
                                          ['Keine Optimierung: Brute Force.',
                                           'Nur der unsortierte Teil wird angeschaut (Optimierung 1).',
                                           'Es wird überprüft, ob die Liste sortiert ist (Optimierung 2).',
                                           'Das ist gar nicht möglich.'],
                                          'Es wird überprüft, ob die Liste sortiert ist (Optimierung 2).')
 
-Q3_bubble = create_multipleChoice_widget('Sie sortieren die gegebene Liste a mit dem Bubblesort-Algorithmus. Wie sieht die Liste nach dem 2. Durchgang aus?',
+Q3_bubble = create_multipleChoice_widget('Sie sortieren die gegebene Liste a mit dem Bubble-Sort-Algorithmus. Wie sieht die Liste nach dem 2. Durchgang aus?',
                                          ['[2, 3, 7, 1, 6, 8, 4, 0, 5, 9]',
                                           '[1, 2, 3, 7, 6, 8, 4, 0, 5, 9]',
                                           '[2, 1, 3, 6, 4, 0, 5, 7, 8, 9]',
                                           '[1, 2, 3, 4, 0, 5, 6, 7, 8, 9]'],
                                          '[2, 1, 3, 6, 4, 0, 5, 7, 8, 9]')
 
-Q4_bubble = create_multipleChoice_widget('Sie sortieren eine umgekehrt sortierte Liste mit dem Bubblesort-Algorithmus und Sie haben alle Optimierungen implementiert. Wie viele Vergleiche erwarten Sie?',
+Q4_bubble = create_multipleChoice_widget('Sie sortieren eine umgekehrt sortierte Liste mit dem Bubble-Sort-Algorithmus und Sie haben alle Optimierungen implementiert. Wie viele Vergleiche erwarten Sie?',
                                          ['9',
                                           '45',
                                           '81',
                                           '90'],
                                          '45')
 
-Q5_bubble = create_multipleChoice_widget('Sie sortieren die gegebene Liste a mit dem Bubblesort-Algorithmus und Sie keine Optimierungen implementiert. Wie viele Vergleiche erwarten Sie?',
+Q5_bubble = create_multipleChoice_widget('Sie sortieren die gegebene Liste a mit dem Bubble-Sort-Algorithmus und Sie keine Optimierungen implementiert. Wie viele Vergleiche erwarten Sie?',
                                          ['9',
                                           '45',
                                           '81',
                                           '90'],
                                          '81')
 
-# Mergesort
-Q1_merge = create_multipleChoice_widget('Sie sortieren die gegebene Liste a Mergesort-Algorithmus. Wie oft müssen Sie die Liste aufteilen?',
+# Merge Sort
+Q1_merge = create_multipleChoice_widget('Sie sortieren die gegebene Liste a Merge-Sort-Algorithmus. Wie oft müssen Sie die Liste aufteilen?',
                                          ['zweimal',
                                           'dreimal',
                                           'viermal',
                                           'fünfmal'],
                                          'viermal')
-Q2_merge = create_multipleChoice_widget('Wie heisst das Konzept hinter dem Mergesort-Algorithmus?',
+Q2_merge = create_multipleChoice_widget('Wie heisst das Konzept hinter dem Merge-Sort-Algorithmus?',
                                          ['Suche und Ordne',
                                           'Suche und Finde',
                                           'Teile und Gewinne',
                                           'Teile und Herrsche'],
                                          'Teile und Herrsche')
-Q2_merge = create_multipleChoice_widget('Wie heisst das Konzept hinter dem Mergesort-Algorithmus?',
+Q2_merge = create_multipleChoice_widget('Wie heisst das Konzept hinter dem Merge-Sort-Algorithmus?',
                                          ['Suche und Ordne',
                                           'Suche und Finde',
                                           'Teile und Finde',
                                           'Teile und Herrsche'],
                                          'Teile und Herrsche')
-Q3_merge = create_multipleChoice_widget('Sie sortieren eine Liste mit dem Mergesort-Algorithmus und mit dem Insertion-Sort-Algorithmus und der Insertion-Sort-Algorithmus ist schneller. Was können Sie über die zu sortierende Liste aussagen?',
+Q3_merge = create_multipleChoice_widget('Sie sortieren eine Liste mit dem Merge-Sort-Algorithmus und mit dem Insertion-Sort-Algorithmus und der Insertion-Sort-Algorithmus ist schneller. Was können Sie über die zu sortierende Liste aussagen?',
                                          ['Sie ist fast sortiert.',
                                           'Sie ist fast verkehrt herum sortiert.',
                                           'Sie ist zufällig sortiert.',
                                           'Es ist keine Aussage möglich.'],
                                          'Sie ist fast sortiert.')
-Q4_merge = create_multipleChoice_widget('Sie sortieren eine Liste mit dem Mergesort-Algorithmus. Was können Sie erwarten?',
+Q4_merge = create_multipleChoice_widget('Sie sortieren eine Liste mit dem Merge-Sort-Algorithmus. Was können Sie erwarten?',
                                          ['Es wird vergleichsweise lange dauern, bis die Liste sortiert ist.',
                                           'Es wird möglicherweise vergleichsweise lange dauern, bis die Liste sortiert ist.',
                                           'Es wird möglicherweise vergleichsweise kurz dauern, bis die Liste sortiert ist.',
                                           'Es wird vergleichsweise kurz dauern, bis die Liste sortiert ist.'],
                                          'Es wird vergleichsweise kurz dauern, bis die Liste sortiert ist.')
-Q5_merge = create_multipleChoice_widget('Der Mergesort-Algorithmus hat seinen Namen vom Zusammenfügen von Listen. Wenn Sie die Listen zusammenfügen, werden diese immer länger. Wieviele verschiedene Listenlängen beobachten Sie, wenn Sie eine Liste sortieren, die 32 Elemente enthält?',
+Q5_merge = create_multipleChoice_widget('Der Merge-Sort-Algorithmus hat seinen Namen vom Zusammenfügen von Listen. Wenn Sie die Listen zusammenfügen, werden diese immer länger. Wieviele verschiedene Listenlängen beobachten Sie, wenn Sie eine Liste sortieren, die 32 Elemente enthält?',
                                          ['Das kann man nicht sagen.',
                                           '6',
                                           '5',
